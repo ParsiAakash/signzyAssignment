@@ -1,0 +1,19 @@
+{
+  "name": "signzy",
+  "version": "1.0.0",
+  "description": "Application to provide APIs for maintaining home appliances",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "test": "jest"
+  },
+  "author": "Aakash Parsi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^25.2.7",
+    "mongoose": "^5.9.7",
+    "supertest": "^4.0.2"
+  }
+}
